@@ -1,0 +1,234 @@
+/* Common styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for import.php */
+.import-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.import-header h1 {
+  margin: 0;
+}
+
+.import-form {
+  text-align: center;
+}
+
+.import-form input[type="file"] {
+  margin: 20px 0;
+}
+
+/* Styles for index.php */
+.index-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.index-header h1 {
+  margin: 0;
+}
+
+.index-buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+.index-buttons .button {
+  margin: 0 10px;
+}
+
+/* Styles for search.php */
+.search-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.search-header h1 {
+  margin: 0;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-container form {
+  display: inline-block;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.search-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.green-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.green-button:hover {
+  background-color: #45a049;
+}
+
+/* style.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Search container */
+.search-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Go back button */
+.go-back-button {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 20px auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.go-back-button:hover {
+    background-color: #555;
+}
+
+
+
